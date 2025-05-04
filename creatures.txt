@@ -1,0 +1,22 @@
+vertebrate Snapper 31 no
+vertebrate Snapper 28 no
+vertebrate Snapper 31 yes
+vertebrate Tarwhine 21 no
+vertebrate Tarwhine 19 no
+vertebrate Tailor 30 no
+vertebrate Tailor 25 no
+
+invertebrate Crab 10 no
+invertebrate Crab 9 no
+invertebrate Crab 10 yes
+invertebrate Abalone 12 no
+invertebrate Abalone 11.5 no
+invertebrate Blue_Swimmer 7 no
+invertebrate Blue_Swimmer 5 no
+invertebrate Blue_Swimmer 7 yes
+
+freshwater Brown_Trout 26 no
+freshwater Brown_Trout 24 no
+freshwater Brown_Trout 26 yes
+freshwater Golden_Perch 31 no
+freshwater Golden_Perch 28 no
