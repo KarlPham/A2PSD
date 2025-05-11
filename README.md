@@ -14,7 +14,7 @@ The system asks the angler to input data about the creature they caught (type, s
 ### 🧱 Architecture and Design
 
 #### ✅ Key Classes
-
+```bash
 - **App** (Facade)
   - Provides the user interface.
   - Collects user input and displays the result.
@@ -40,8 +40,9 @@ The system asks the angler to input data about the creature they caught (type, s
   - Selects the appropriate checker and performs validation.
 
 ---
-
+```
 ### 📌 Workflow
+```bash
 [User Input] → [App] → [SeaCreatureFactory] → [SeaCreature Object]
 ↓
 [SeaPlusPlusEngine]
@@ -49,6 +50,7 @@ The system asks the angler to input data about the creature they caught (type, s
 [Checker (Vertebrate/Invertebrate)]
 ↓
 [Result displayed to user]
+```
 
 - User enters type, species, length, egg status.
 - App creates the appropriate creature via factory.
@@ -60,6 +62,7 @@ The system asks the angler to input data about the creature they caught (type, s
 
 ### 📊 Regulation Example (Vertebrate)
 
+```bash
 | Species   | Minimum Length (cm) | Must Not Have Eggs |
 |-----------|--------------------|--------------------|
 | Snapper   | 30                  | Yes |
@@ -69,14 +72,14 @@ The system asks the angler to input data about the creature they caught (type, s
 Similar rules are implemented for Invertebrates (e.g., Crab, Abalone, Blue Swimmer).
 
 ---
-
+```
 ### ✅ How to Run
-
+```bash
 g++ -std=c++17 main.cpp -o sea++
 ./sea++
-
+```
 ### Run process
-
+```bash
 Enter creature type (vertebrate/invertebrate): 
 vertebrate
 Enter species (Snapper | Tailor | Tarwhine): 
@@ -86,3 +89,4 @@ Enter length (cm):
 Is it carrying eggs? (yes/no): 
 no
 ✅ You can keep the Snapper!
+```
